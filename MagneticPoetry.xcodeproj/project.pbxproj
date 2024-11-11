@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14434E3D2568A4070096AD65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14434E3C2568A4070096AD65 /* Extensions.swift */; };
+		14434E4125694B2D0096AD65 /* WordMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14434E4025694B2D0096AD65 /* WordMaker.swift */; };
 		1445C41B25684C140089AF67 /* MagneticPoetryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445C41A25684C140089AF67 /* MagneticPoetryApp.swift */; };
 		1445C41D25684C140089AF67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445C41C25684C140089AF67 /* ContentView.swift */; };
 		1445C41F25684C150089AF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445C41E25684C150089AF67 /* Assets.xcassets */; };
 		1445C42225684C150089AF67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445C42125684C150089AF67 /* Preview Assets.xcassets */; };
+		1466DD9F2569D15A0098C17D /* NewWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466DD9E2569D15A0098C17D /* NewWord.swift */; };
+		1466DDA6256A064F0098C17D /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466DDA5256A064F0098C17D /* WordView.swift */; };
+		1466DDAA256A06870098C17D /* PartOfSpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466DDA9256A06870098C17D /* PartOfSpeechView.swift */; };
+		1466DDAF256A07DA0098C17D /* NewWordMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466DDAE256A07DA0098C17D /* NewWordMenuView.swift */; };
+		14814D0D256CAC47006E19D1 /* ModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14814D0C256CAC47006E19D1 /* ModifiersView.swift */; };
+		14814D10256CACA7006E19D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14814D0F256CACA7006E19D1 /* ModifierView.swift */; };
+		1499166325688E56000FBD1B /* QGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499166225688E56000FBD1B /* QGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14434E3C2568A4070096AD65 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		14434E4025694B2D0096AD65 /* WordMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordMaker.swift; sourceTree = "<group>"; };
 		1445C41725684C140089AF67 /* MagneticPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1445C41A25684C140089AF67 /* MagneticPoetryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticPoetryApp.swift; sourceTree = "<group>"; };
 		1445C41C25684C140089AF67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1445C41E25684C150089AF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1445C42125684C150089AF67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1445C42325684C150089AF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1466DD9E2569D15A0098C17D /* NewWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWord.swift; sourceTree = "<group>"; };
+		1466DDA5256A064F0098C17D /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		1466DDA9256A06870098C17D /* PartOfSpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOfSpeechView.swift; sourceTree = "<group>"; };
+		1466DDAE256A07DA0098C17D /* NewWordMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordMenuView.swift; sourceTree = "<group>"; };
+		14814D0C256CAC47006E19D1 /* ModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersView.swift; sourceTree = "<group>"; };
+		14814D0F256CACA7006E19D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		1499166225688E56000FBD1B /* QGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +70,17 @@
 		1445C41925684C140089AF67 /* MagneticPoetry */ = {
 			isa = PBXGroup;
 			children = (
-				1445C41A25684C140089AF67 /* MagneticPoetryApp.swift */,
 				1445C41C25684C140089AF67 /* ContentView.swift */,
+				1466DD9E2569D15A0098C17D /* NewWord.swift */,
+				14434E4025694B2D0096AD65 /* WordMaker.swift */,
+				1466DDA5256A064F0098C17D /* WordView.swift */,
+				14814D0C256CAC47006E19D1 /* ModifiersView.swift */,
+				14814D0F256CACA7006E19D1 /* ModifierView.swift */,
+				1466DDA9256A06870098C17D /* PartOfSpeechView.swift */,
+				1466DDAE256A07DA0098C17D /* NewWordMenuView.swift */,
+				14434E3C2568A4070096AD65 /* Extensions.swift */,
+				1499166225688E56000FBD1B /* QGrid.swift */,
+				1445C41A25684C140089AF67 /* MagneticPoetryApp.swift */,
 				1445C41E25684C150089AF67 /* Assets.xcassets */,
 				1445C42325684C150089AF67 /* Info.plist */,
 				1445C42025684C150089AF67 /* Preview Content */,
@@ -138,8 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1466DDA6256A064F0098C17D /* WordView.swift in Sources */,
+				1466DD9F2569D15A0098C17D /* NewWord.swift in Sources */,
 				1445C41D25684C140089AF67 /* ContentView.swift in Sources */,
+				1466DDAA256A06870098C17D /* PartOfSpeechView.swift in Sources */,
+				14814D0D256CAC47006E19D1 /* ModifiersView.swift in Sources */,
+				1466DDAF256A07DA0098C17D /* NewWordMenuView.swift in Sources */,
 				1445C41B25684C140089AF67 /* MagneticPoetryApp.swift in Sources */,
+				1499166325688E56000FBD1B /* QGrid.swift in Sources */,
+				14814D10256CACA7006E19D1 /* ModifierView.swift in Sources */,
+				14434E3D2568A4070096AD65 /* Extensions.swift in Sources */,
+				14434E4125694B2D0096AD65 /* WordMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
